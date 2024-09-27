@@ -1,7 +1,7 @@
 {
 	"HTML File Skeleton": {
 		"scope": "html,typescript,javascript",
-		"prefix": "skeletonHTML",
+		"prefix": "skelHTML",
 		"body": [
 			"<!DOCTYPE html>",
 			"<html>",
@@ -35,7 +35,7 @@
 
 	"Basic HTML Table": {
 		"scope": "javascript, html, css",
-		"prefix": "skeletonTable",
+		"prefix": "skelTable",
 		"body": [
 			"<table>",
 			"\t<thead>",

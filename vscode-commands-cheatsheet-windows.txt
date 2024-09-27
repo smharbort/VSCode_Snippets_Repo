@@ -1,0 +1,85 @@
+                                                                    -USEFUL VSCODE SHORTCUTS & COMMANDS-
+
+                                                                        // these CSS formatting on comments are redundant in a .txt file-- I did it for my personal ease of readability
+                                                                        // before realizing I might as well share this, and just stuck with it.
+
+ALT + click at cursor location  :   Click in multiple places while holding ALT until you have all desired locations, then let go of ALT. Until you click again,
+                                    you will now type the same code at each location simulaneously.
+
+CTRL + /                        :   Wraps comment syntax around all line(s) containing selected code, rendering all lines comments.
+
+CTRL + L                        :   Selects the current line for manipulation. Use up & down arrows in tandem to select multiple lines.
+
+CTRL + P                        :   Opens command pallette (abbrev. -> "CP")
+
+in CP, write ">"                :   Search for/type in virtually any command in VSCode.
+
+CTRL + D                        :   Selects element on cursor for manipulation. Hold CTRL + click D again to select the next occurrence in the file starting
+                                    from the location of your first occurrence and going down thru file.
+
+CTRL + SHIFT + L                :   Selects all occurrences of the highlighted text in file for manipulation.
+                                        // BE CAREFUL WITH THIS. Select this 'for' with this command to see that it ALSO grabs the 'for' in 'formats' on line 40!
+
+ALT + up/down arrow             :   Selected code is moved up or down one line.
+
+ALT + SHIFT + up/down arrow     :   Selected code is duplicated onto a newly generated line above/below the original line.
+                                        // THIS ONE IS SUPER USEFUL! if you select blocks of code, it will duplicate the entire block.
+
+    /*
+        Visualization:
+        
+            <p class="paragraphs">This is an example line of code</p>              // on this line of code, highlight code OR CTRL + L, then ALT + SHIFT +  
+            <p class="paragraphs">This is an example line of code</p>              // this line of code generated when ↓ down arrow clicked third time.
+            <p class="paragraphs">This is an example line of code</p>              //                                  ↓ clicked second time
+            <p class="paragraphs">This is an example line of code</p>              //                                  ↓ clicked first time
+            <div id="underneath-example"></div>
+    */
+
+CTRL + X                        :   Cuts current line (can you paste the line cut after? Yes.)
+
+SHIFT + ALT + F                 :   Auto-formats JSON data in file!
+                                        // I CANNOT STRESS HOW USEFUL THIS WILL BE DOWN THE LINE. We're talking formatting thousands of lines of code for easier readability with ONE command.
+
+in CP, write ">conf"...         :   Essentially: save frequently-used code pieces to a permanent clipboard inside VSCode to paste into new projects/files whenever you need!
+
+                                    Find "Preferences: Configure User Snippets" in CP suggestions bar. Creates a background file with a JSON object. Reassign only the nested values (including:
+                                    write your code!) and save. When you begin typing the prefix you assigned, you can click on the recommendation and generate your snippet!                  
+                                        // You can choose to create snippets that are accessible by all of your VSCode workspaces, or snippets that are only accessible by one workspace.
+
+    /*
+        Below is my boilerplate HTML snippet with bootstrap links, for reference. If you go to the "Configure User Snippets" section and read the introduction it will make more sense.
+        When I begin typing 'skel' on HTML file I can just click enter to generate this snippet. I can foresee the specific Bootstrap <link> and <script> tags needing to be manually updated in
+        code snippets whenever Bootstrap updates, though.
+
+            "HTML File Skeleton": {
+                    "scope": "html,typescript,javascript",
+                    "prefix": "skelHTML",
+                    "body": [
+                        "<!DOCTYPE html>",
+                        "<html>",
+                        "\t<head>",
+                        "\t\t<meta charset=\"utf-8\">",
+                        "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+                        "\t\t<title>$1</title>",
+                        "",
+                        "\t\t<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\" crossorigin=\"anonymous\">",
+                        "\t\t<link rel=\"stylesheet\" href=\"styles.css\">",
+                        "\t</head>",
+                        "\t<body>",
+                        "\t\t$0",
+                        "",
+                        "\t\t<script src=\"index.js\"></script>",
+                        "\t\t<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz\" crossorigin=\"anonymous\"></script>",
+                        "\t</body>",
+                        "</html>"
+                    ],
+                    "description": "Generates HTML skeleton with Bootstrap meta links"
+            }
+    */
+
+CTRL + `                        :   Toggles terminal
+
+f5                              :   Runs your currently active file
+                                        // DON'T DO THIS ON A CSS FILE. IT DOES NOT WORK AND CAN BE A HEADACHE TO FIX THE THING THAT HAPPENS IF YOU DO.
+
+CTRL + K, then click Z          :   activates "Zen Mode". Just makes your screen more minimalistic & aesthetic to focus on code. Same command to undo.
