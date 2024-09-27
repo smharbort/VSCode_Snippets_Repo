@@ -1,10 +1,11 @@
 # Useful VSCode Snippets If You Want Them
 
-## Made a repo so I can update without constantly having to post in discord if I make more  
+## Made a repo so I can update without constantly having to post in discord when I make more  
 
 ## To Use
-1. in GitHub, click on "Go to file", choose useful-snippets.txt
-2. copy/paste from .txt into your global snippets file
+1. in GitHub, choose useful-snippets.txt
+2. copy/paste from .txt into your global snippets file  
+(type > in search bar in VSCode, should be at the top 'Snippets: Configure Snippets' -> 'globalSnippets.code-snippets')
 3. rename the prefixes to your liking
 4. double check that indentations/commas between snippets is correct & save
 

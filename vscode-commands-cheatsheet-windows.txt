@@ -51,7 +51,7 @@ in CP, write ">conf"...         :   Essentially: save frequently-used code piece
         When I begin typing 'skel' on HTML file I can just click enter to generate this snippet. I can foresee the specific Bootstrap <link> and <script> tags needing to be manually updated in
         code snippets whenever Bootstrap updates, though.
 
-            "HTML File Skeleton": {
+            "HTML File Boilerplate": {
                     "scope": "html,typescript,javascript",
                     "prefix": "skelHTML",
                     "body": [
