@@ -30,7 +30,7 @@
 		"body": [
 			"console.log($0)"
 		],
-		"description": "don't want to type out a million console.log()s"
+		"description": "Don't want to type out a million console.log()s"
 	},
 
 	"Basic HTML Table": {
@@ -55,6 +55,6 @@
 			"\t</tfoot>",
 			"</table>"
 		],
-		"description": "Generates a basic table. Tab thru <td>s to easily type data. Does the same as Emmet abbrev. 'table>thead>td*3^tr>td*3^tfoot>td*3', with less typing"
+		"description": "Generates a basic table. Tab thru <td>s to easily type data. Does the same as Emmet abbrev. table>thead>td*3^tr>td*3^tfoot>td*3, with less typing"
 	}
 }
