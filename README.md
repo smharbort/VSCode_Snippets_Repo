@@ -18,4 +18,4 @@
 
 #### [Link to JSON data intro if you have a question about formatting](https://stackoverflow.blog/2022/06/02/a-beginners-guide-to-json-the-data-format-for-the-internet/)
 
-#### Test snippets file is just for me so I can make sure it looks right before pushing to GitHub
+#### Test snippets files are just for me so I can make sure it looks right before pushing to GitHub

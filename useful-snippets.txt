@@ -1,6 +1,6 @@
 {
 	"HTML File Skeleton": {
-		"scope": "javascript, HTML, typescript",
+		"scope": "html, javascript, typescript",
 		"prefix": "skelHTML",
 		"body": [
 			"<!DOCTYPE html>",
@@ -25,7 +25,7 @@
 	},
 
 	"Console Log JS": {
-		"scope": "javascript, html, typescript",
+		"scope": "html, javascript, typescript",
 		"prefix": "lazy",
 		"body": [
 			"console.log($0)"
@@ -34,7 +34,7 @@
 	},
 
 	"Basic HTML Table": {
-		"scope": "javascript, html, typescript",
+		"scope": "html, javascript, typescript",
 		"prefix": "skelTable",
 		"body": [
 			"<table>",
