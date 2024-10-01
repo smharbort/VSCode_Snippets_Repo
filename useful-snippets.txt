@@ -60,12 +60,23 @@
 
 	"Log All Key, Value Pairs in Object": {
 		"scope": "javascript",
-		"prefix": "logKeyValue",
+		"prefix": "lKeyValues",
 		"body": [
 			"for (const [key, value] of Object.entries($0)) {",
     		"\tconsole.log(key, value)",
-			"}",
+			"}"
 		],
 		"description": "logs all key, value pairs in an object"
+	},
+
+	"Log All Values in Object": {
+		"scope": "javascript",
+		"prefix": "lValues",
+		"body": [
+			"for (const key in $1) {",
+    		"\tconsole.log($0[key])",
+			"}"
+		],
+		"description": "logs all values in an object. I believe it's correct to use [key] as opposed to [value] because objectName[key], syntactically, would retrieve the values."
 	}
 }

@@ -15,6 +15,8 @@
 1. HTML boilerplate with current Bootstrap CDN links
 2. console.log() shortcut
 3. HTML table skeleton
+4. Log all key, value pairs in object
+5. Log all values in object
 
 #### [Link to JSON data intro if you have a question about formatting](https://stackoverflow.blog/2022/06/02/a-beginners-guide-to-json-the-data-format-for-the-internet/)
 
