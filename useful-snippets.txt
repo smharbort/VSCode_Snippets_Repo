@@ -56,5 +56,16 @@
 			"</table>"
 		],
 		"description": "Generates a basic table. Tab thru <td>s to easily type data. Does the same as Emmet abbrev. table>thead>td*3^tr>td*3^tfoot>td*3, with less typing"
+	},
+
+	"Log All Key, Value Pairs in Object": {
+		"scope": "javascript",
+		"prefix": "logKeyValue",
+		"body": [
+			"for (const [key, value] of Object.entries($0)) {",
+    		"\tconsole.log(key, value)",
+			"}",
+		],
+		"description": "logs all key, value pairs in an object"
 	}
 }
